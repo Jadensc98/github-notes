@@ -23,3 +23,9 @@ git branch (branch name) => creates a new branch
 git checkout (branch name) => switches to inserted branch
 git checkout -b (branch name) => creates and switches to new created branch
 git merge (branch name) => merges all changes made to the inserted branch to current branch
+git pull origin master => download all commits that have changed since the last time you downloaded
+
+COMMANDS YOU USE A LOT 
+git add . 
+git commit -m "note"
+git push origin (branch name)
