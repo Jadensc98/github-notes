@@ -1,0 +1,7 @@
+BASIC COMMANDS 
+
+git => says I'm using git
+git --version => tells me what version of git im using 
+git init => tells git to start paying attention
+git add (whatever you are adding) => tells git that you want to track this version (usually use git add . to add everything)
+git commit -m (insert note)
