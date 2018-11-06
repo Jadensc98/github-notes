@@ -4,4 +4,22 @@ git => says I'm using git
 git --version => tells me what version of git im using 
 git init => tells git to start paying attention
 git add (whatever you are adding) => tells git that you want to track this version (usually use git add . to add everything)
-git commit -m (insert note)
+git commit -m (insert note) => saves a version and adds the label 
+
+
+--VIM TIP----
+If you forget your commit message or otherwise end up in VIM:
+
+1) type any messages you wanted to type (any have to type "." to trigger)
+2) hit "esc" key to get out of insert mode, then press :
+3) type q! to get out of VIM 
+-----------------
+
+git log => shows all changes made
+git diff => shows changes since last commit
+git status => tells me whats what
+git branch => tells me what branches exist and which one im on 
+git branch (branch name) => creates a new branch 
+git checkout (branch name) => switches to inserted branch
+git checkout -b (branch name) => creates and switches to new created branch
+git merge (branch name) => merges all changes made to the inserted branch to current branch
